@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Junge', serif;
+  }
+  
+  .hero {
+    background-image: url("photo.jpeg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #444;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #2b6e44;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Bright text */
+    font-size: 18px;
+    font-family: 'Junge', serif;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .icons {
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+    color: #333;
+  }
+  
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .center-text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color: #3c2d2d;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+  }
+  
